@@ -1,0 +1,68 @@
+/* GLOBAL */
+*{
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+}
+
+html, body{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.clear{
+    clear: both;
+}
+
+h2{
+    font-size: 25px;
+    text-transform: uppercase;
+     
+}
+/* HEADER */
+.header__logoImg{
+    float: left
+}
+.header__slogan{
+    float: right;
+    margin-right: 120px;
+}
+.header__navbar ul{
+    list-style: none;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.header__navbar a{
+    text-decoration: none;
+    color: #636363;
+    text-transform: uppercase;
+    font-weight: bolder;
+    /* vw vh */
+    /* 1 em ~ fontsize dang xet */
+    font-size: 1.13vw;
+    padding: 0 0.3em;
+}
+
+.header__navbar li{
+    display: inline;    
+    
+  
+}
+.header__navbar li:hover{
+    border-bottom:  2px solid red;
+}
+
+.header__navbar .active{
+    border-bottom:  2px solid red;
+}
+
+/* CAROUSEL */
+.carousel{
+    background-image: url("../img/slider_1.png");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
