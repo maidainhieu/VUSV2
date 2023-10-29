@@ -16,7 +16,16 @@ html, body{
 h2{
     font-size: 25px;
     text-transform: uppercase;
-     
+    text-align: center;
+    padding-top: 50px;
+
+}
+.line{
+    background-image: url("../img/line.png");
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 25px;
 }
 /* HEADER */
 .header__logoImg{
@@ -54,7 +63,7 @@ h2{
     border-bottom:  2px solid red;
 }
 
-.header__navbar .active{
+.header__navbar .active {
     border-bottom:  2px solid red;
 }
 
@@ -65,4 +74,113 @@ h2{
     background-size: cover;
     background-position: center;
     margin-top: 20px;
+}
+
+/* INTRO */
+.intro p{
+    text-align: center;
+    color: #636363;
+    line-height: 25px;
+    padding: 0 25px;
+}
+/* PROGRAMS */
+.programs__item{
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+.programs__item img{
+    width: 100%;
+}
+.programs__item h3{
+    color: red;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 10px 0 5px ;
+}
+
+.programs__item p{
+    color: #636363;
+    margin: 0;
+    font-size: 14px; 
+}
+
+/* NEWS */
+.news{
+    margin-bottom: 20px;
+}
+.news__left, .news__right{
+    float: left;
+    width: 50%;
+    padding: 0 5px;
+}
+
+.news__small-item{
+    float: left;
+    width: 50%;
+    padding: 0 8.5px 10px ;
+}
+
+.news__text hr{
+    margin: 0;
+    height: 5px;
+    background-color: red;
+    margin-top: 3px;
+}
+
+.news__text img{
+    width: 100%;
+    display: block;
+}
+
+.news__text{
+    position: relative;
+}
+
+.news__text p{
+    position: absolute;
+    bottom : 8px;
+    left: 0;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 15px 10px;
+    margin: 0;
+}
+.news__left .news__text p{
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+.footer{
+    background-color: #b31c25;
+    color: white;
+    padding: 20px 50px ;
+}
+.footer img{
+    float:left
+}
+
+.footer p{
+    float:right;
+    width: 50%;
+    word-spacing: 2px;
+    text-align: justify;
 }
